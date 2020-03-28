@@ -11,10 +11,6 @@ def init_directory(directory_name):
 
 
 def write_userinfo(user_info, directory, filename):
-    # old_file_handler = open(filepath, 'r')
-    # old_file_content = old_file_handler.read()
-    # old_file_handler.close()
-    # print(str)
     filepath = directory + '/' + filename
     file_extension = '.txt'
     if os.path.isfile(filepath):
