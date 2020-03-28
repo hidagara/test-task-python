@@ -5,6 +5,9 @@ __pycache__/
 
 # tasks folder
 tasks/
+
+# logs
+error_log.txt
 # C extensions
 *.so
 
