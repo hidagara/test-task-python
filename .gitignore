@@ -3,6 +3,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# tasks folder
+tasks/
 # C extensions
 *.so
 
