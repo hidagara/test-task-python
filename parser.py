@@ -1,15 +1,15 @@
 import requests
 import json
 import sys
-from src.user import User
-from src import filemanager
+from user import User
+import filemanager
 import logging
 
 
 def main():
     logger = logging.getLogger("reports_application")
     logger.setLevel(logging.ERROR)
-    fh = logging.FileHandler("../error_log.txt")
+    fh = logging.FileHandler("error_log.txt")
     formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(module)s - %(funcName)s: %(message)s',
                                   datefmt="%Y-%m-%d %H:%M:%S")
     fh.setFormatter(formatter)
@@ -53,10 +53,6 @@ def main():
         filename = current_user.username
         filemanager.write_userinfo(user_info, directory_name, filename)
 
-
-#
-# if user.username == 'Bret':
-#     raise Exception('its bret')
 
 if __name__ == '__main__':
     main()

@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7453eb44-6752-465b-ac4c-8ebfaa750610" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filemanager.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/filemanager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/filemanager.py" beforeDir="false" afterPath="$PROJECT_DIR$/filemanager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/user.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +37,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="parser" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="test-task-python" />
@@ -52,7 +57,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/parser.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parser.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -78,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584916950491</updated>
       <workItem from="1584916957480" duration="37507000" />
-      <workItem from="1585418302211" duration="287000" />
+      <workItem from="1585418302211" duration="7538000" />
     </task>
     <servers />
   </component>
@@ -86,6 +91,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="436" y="243" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585437083119">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="436" y="243" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.821@0.23.1440.821" timestamp="1585437083119" />
     <state x="437" y="280" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1584916972613">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
@@ -94,22 +103,22 @@
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="458" y="189" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.821@0.23.1440.821" timestamp="1585320721646" />
-    <state width="1358" height="199" key="GridCell.Tab.0.bottom" timestamp="1585322590852">
+    <state width="1358" height="199" key="GridCell.Tab.0.bottom" timestamp="1585437349824">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state width="1358" height="199" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1585322590852" />
-    <state width="1358" height="199" key="GridCell.Tab.0.center" timestamp="1585322590851">
+    <state width="1358" height="199" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1585437349824" />
+    <state width="1358" height="199" key="GridCell.Tab.0.center" timestamp="1585437349824">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state width="1358" height="199" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1585322590851" />
-    <state width="1358" height="199" key="GridCell.Tab.0.left" timestamp="1585322590850">
+    <state width="1358" height="199" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1585437349824" />
+    <state width="1358" height="199" key="GridCell.Tab.0.left" timestamp="1585437349824">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state width="1358" height="199" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1585322590850" />
-    <state width="1358" height="199" key="GridCell.Tab.0.right" timestamp="1585322590852">
+    <state width="1358" height="199" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1585437349824" />
+    <state width="1358" height="199" key="GridCell.Tab.0.right" timestamp="1585437349824">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state width="1358" height="199" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1585322590852" />
+    <state width="1358" height="199" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1585437349824" />
     <state width="1358" height="247" key="GridCell.Tab.1.bottom" timestamp="1585004292786">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
@@ -147,6 +156,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/test_task_python$parser.coverage" NAME="parser Coverage Results" MODIFIED="1585322590844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test_task_python$parser.coverage" NAME="parser Coverage Results" MODIFIED="1585437349818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
