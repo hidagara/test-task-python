@@ -5,8 +5,6 @@ __pycache__/
 
 # tasks folder
 tasks/
-# pycharm
-./.idea
 # logs
 error_log.txt
 # C extensions
