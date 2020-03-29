@@ -9,22 +9,27 @@ import logging
 def main():
     logger = logging.getLogger("reports_application")
     logger.setLevel(logging.ERROR)
-    fh = logging.FileHandler("error_log.txt")
+    logger.setLevel(logging.INFO)
+    fh = logging.FileHandler("reports_log.txt")
     formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(module)s - %(funcName)s: %(message)s',
                                   datefmt="%Y-%m-%d %H:%M:%S")
     fh.setFormatter(formatter)
     logger.addHandler(fh)
 
     try:
+        logger.info("Start parsing users")
         user_response = requests.get('https://json.medrating.org/users')
         user_response.raise_for_status()
+        logger.info("Users has been parsed successfully")
     except requests.exceptions.RequestException as e:
         logger.error(e)
         raise sys.exit(e)
 
     try:
+        logger.info("Start parsing tasks")
         task_response = requests.get('https://json.medrating.org/todos')
         task_response.raise_for_status()
+        logger.info("Tasks has been parsed successfully")
     except requests.exceptions.RequestException as e:
         logger.error(e)
         raise sys.exit(e)
